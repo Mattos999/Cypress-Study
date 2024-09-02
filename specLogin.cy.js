@@ -5,8 +5,8 @@ describe('template spec', () => {
     cy.contains('a', 'Fazer login').click();
     //Logar
     //Preencher dados de Login
-    cy.get('input[name = "email"]').type('carlos.matos.nac@gmail.com');
-    cy.get('input[name = "password"]').type('Matos150615');
+    cy.get('input[name = "email"]').type('test@gmail.com');
+    cy.get('input[name = "password"]').type('test12345');
     //Clicar em Entrar
     cy.contains('button', 'Entrar').click();
   })
