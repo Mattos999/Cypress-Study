@@ -5,7 +5,7 @@ describe('template spec', () => {
     //Clicar em Cadastrar
     cy.contains('a', 'Cadastrar').click();
     //preencher o Formulário para cadastro
-    cy.get('input[name = "nome"]').type('Carlos Matos');
+    cy.get('input[name = "nome"]').type('Fulano');
     cy.get('input[name = "email"]').type('test@gmail.com');
     cy.get('input[name = "password"]').type('test12345');
     cy.get('input[name = "confirm_password"]').type('test12345');
